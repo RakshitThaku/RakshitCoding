@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <br>
+        <form>
+            <label for="username">USERNAME:</label>
+            <input type="text" id = "username" required>
+            <br>
+            <br>
+            <label for="email">Enter Email:</label>
+            <input type="email" id = "email" required>
+            <br><br>
+            <label for="password">Enter Password:</label>
+            <input type="password" id = "password" required>
+            <br><br>
+            <p>Select your age:</p>
+            <input type="radio" name="age" value="0-25" id="option-1">0-25<br>
+            <input type="radio" name="age" value="25-50" id="option-2">25-50<br>
+            <input type="radio" name="age" value="50-75" id="option-3">50-75<br>
+            <input type="radio" name="age" value="75-100" id="option-4">75-100<br>
+            <br><br>
+            Security Questions:
+            <select name="question">
+                <option value="q1">What is your favorite sport?</option>
+                <option value="q2">What is the name of your favorite player?</option>
+                <option value="q3">What is your favorite security question?</option>
+            </select>
+            <br><br>
+            Security Answer:
+            <input type="text" name="answer">
+            <br><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio..."></textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
