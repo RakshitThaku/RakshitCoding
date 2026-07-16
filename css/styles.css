@@ -2,12 +2,13 @@ body{
     min-height: 100vh;
     position:relative;
     margin: 0;
+    padding: 15px;
 }
 body::before{
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("../images/img.png");
+    background-image: url("../images/img.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
